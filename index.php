@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <title>Proyecto IoT</title>
-<link href="../files/estilos.css" rel="stylesheet">
-<link href="../files/datatables.min.css" rel="stylesheet">
-<link href="../files/fontawesome-free-6.5.1/css/fontawesome.css" rel="stylesheet">
-<link href="../files/fontawesome-free-6.5.1/css/brands.css" rel="stylesheet">
-<link href="../files/fontawesome-free-6.5.1/css/solid.css" rel="stylesheet">
+<link href="files/estilos.css" rel="stylesheet">
+<link href="files/datatables.min.css" rel="stylesheet">
+<link href="files/fontawesome-free-6.5.1/css/fontawesome.css" rel="stylesheet">
+<link href="files/fontawesome-free-6.5.1/css/brands.css" rel="stylesheet">
+<link href="files/fontawesome-free-6.5.1/css/solid.css" rel="stylesheet">
 </head>
 <body>
 <h2>Sistema de Riego Automatico</h2>
@@ -38,7 +38,7 @@
 </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="../files/jquery-3.7.1.min.js"></script>
-<script src="../files/datatables.min.js"></script>
-<script src="js/IoT.js"></script>
+<script src="files/jquery-3.7.1.min.js"></script>
+<script src="files/datatables.min.js"></script>
+<script src="vistas/js/IoT.js"></script>
 </html>

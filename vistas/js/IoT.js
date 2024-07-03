@@ -96,10 +96,10 @@ $(document).ready(function () {
     $('#DatosPlanta').DataTable().destroy();
     $('#DatosPlanta').DataTable({
       language: {
-        url: "files/datatable-spanish.json"
+        url: "../files/datatable-spanish.json"
       },
       ajax: {
-        url: "ajax/datosplanta.php?op=listar",
+        url: "../ajax/datosplanta.php?op=listar",
         type: "POST",
         dataSrc: 'data'
       },
@@ -125,7 +125,7 @@ $(document).ready(function () {
   function ultimoDato() {
     var estado = document.getElementById("Estadodiv");
     $.ajax({
-      url: "ajax/datosplanta.php?op=ultimo",
+      url: "../ajax/datosplanta.php?op=ultimo",
       type: "POST",
       contentType: false,
       processData: false,
@@ -139,7 +139,7 @@ $(document).ready(function () {
 
   function estadistica(fe) {
     $.ajax({
-      url: "ajax/datosplanta.php?op=estadistica",
+      url: "../ajax/datosplanta.php?op=estadistica",
       type: "POST",
       data: {
         fec: fe
